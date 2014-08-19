@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Jed A. Long</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+  <h1>Jed A. Long</h1>
+	<h2>GIS, Maps, Spatial Ecology, Sports Analytics</h2>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="bio.html">About Me</a></li>
+		<li><a href="projects.html">Research Projects</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li><a href="tools.html">Tools/Code</a></li>
+	</ul>
+</div>
+
+
+<!-- THIS IS WHERE THE CONTENT GOES EVERYTING ELSE IS BASE FORMATTING-->
+<div id='content'>
+
+  <div id="left" style="width:60%;;float:left">
+  <h1>WildilfeDI</h1>
+  <h3>A suite of tools (in R) for measuring dynamic interaction in wildlife telemetry data.</h3>
+<br>
+The development of these tools was motivated by a one of my recent papers that looked at a new, path-based measure of dynamic interaction <a href='http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9671.2012.01353.x/full'>(Long and Nelson 2013)</a>. Following up on this research, we compared this method with a number of other currently available methods (see <a href='http://onlinelibrary.wiley.com/doi/10.1111/1365-2656.12198/full'>Long et al. 2014</a>). The R code used to compute each of the methods is then packaged up so that other researchers can implement them in their own research. I have written a vignette as part of the package that outlines the implementation of each method, along with some of the guidelines we identif in our paper. 
+  <br>
+  <br>
+  The goal of this website is to provide access to the tools I have developed with my own dynamic interaction research. I hope you too can use these tools to investigate dynamic interaction patterns in your own wildlife telemetry datasets. I would appreciate any feedback you may have concerning the suite of tools provided here.
+<br><br>
+<h2>Available Methods</h2>
+<ul>
+<li>Prox - Proximity analysis (Bertrand et al. 1996)</li>
+<li>Ca - Coefficient of association (Cole 1949; Bauman 1998)</li>
+<li>Don - Doncaster's non-parametric test (Doncaster 1990)</li>
+<li>Lixn, Laa, Lbb - Minta's tests for spatial and temporal interaction (Minta 1992)</li>
+<li>Cs - Coefficient of sociality (Kenward et al. 1993)</li>
+<li>HAI - Half-weight association index (Brotherton et al. 1997)</li>
+<li>Cr - Correlation coefficient (Shirabe 2006)</li>
+<li>DI - Dynamic interaction index (Long and Nelson, 2013)</li>
+</ul>
+
+<a href='http://cran.r-project.org/web/packages/wildlifeDI/index.html'><h2>Download Wildlife DI</h2></a>
+<br>
+The wildilfeDI package can now be downloaded (and installed) directly from CRAN! <a href='http://cran.r-project.org/web/packages/wildlifeDI/index.html'>DOWNLOAD</a>. 
+<br><br>
+Also, be sure to check out the documentation and vignette files associated with the package for more detailed instructions.
+<br><br>
+<h3>Additional Information</h3>
+<br>
+The wildlifeDI package has been developed for use within the statistical software R. The functions rely heavily on the data structures and methods developed in the adehabitat suite of packages which are extremely useful in the analysis of wildlife telemetry data. 
+<br><br>
+For more information on the use of the adehabitat objects and methods see the documentation and vignettes provided alongside each package, and the paper by Calenge (2006). 
+<br><br>
+Should you have any further questions please contact me via email: jed.long AT st-andrews.ac.uk 
+<br><br>
+<h4>References</h4>
+<br>
+Bauman PJ. 1998. The Wind Cave National Park elk herd: home ranges, seasonal movements, and alternative control methods. MS Thesis, South Dakota State University, Brookings, USA.
+<br><br>
+Bertrand MR, DeNicla AJ, Beissinger SR, Swihart RK. 1996. Effects of parturition on home ranges and social affiliations of female white-tailed deer. Journal of Wildlife Management 60: 899-909.
+<br><br>
+Brotherton P, Pemberton J, Komers P, Malarky G. 1997. Genetic and behavioural evidence of monogamy in a mammal, Kirk's dik-dik (Madoquakirkii). Proceedings of the Royal Society of London: Series B Biological Sciences 264: 675-681.
+<br><br>
+Calenge C. 2006. The package "adehabitat" for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197: 516-519.
+<br><br>
+Cole LC. 1949. The measurement of interspecific association. Ecology 30: 411-424.
+<br><br>
+Doncaster CP. 1990. Non-parametric estimates of interactions from radio-tracking data. Journal of Theoretical Biology 143: 431-443.
+<br><br>
+Kenward RE, Marcstrom V, Karlbom M. 1993. Post-nestling behaviour in goshawks, Accipiter gentilis: II. Sex differences in sociality and nest-switching. Animal Behaviour 46: 371-378.
+<br><br>
+Long JA, Nelson TA. 2013. Measuring dynamic interaction in movement data Transactions in GIS. 17(1), 62-77.
+<br><br>
+Long, JA, Nelson, TA, Webb, SL, Gee, K (in press). A critical examination of indices of dynamic interaction for wildlife telemetry studies. Journal of Animal Ecology. DOI: 10.1111/1365-2656.12198.
+<br><br>
+Minta SC. 1992. Tests of spatial and temporal interaction amoung animals. Ecological Applications 2: 178-188.
+<br><br>
+Shirabe T. 2006. Correlation analysis of discrete motions. In GIScience 2006. LNCS, vol. 4197, Raubal M, Miller HJ, Frank AU, Goodchild MF (eds.); Springer-Verlag: Berlin; 370-382.
+<br><br>
+  </div>
+  <div id="right" style="width:30%;;float:right">
+  <img src="images/hawaii.jpg.">
+  </div>
+</div>
+
+
+<!-- END OF THE CONTENT -->
+
+
+<div id="footer">
+	<p>For more information on any of my research or publications please send me an email.</p>
+</div>
+<div align=center>Thanks for visiting!</div></body>
+</html>
