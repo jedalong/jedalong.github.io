@@ -51,26 +51,45 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/** MENU */
+/* Menu */
 
 #menu {
-	float: left;
-	width: 15%;
-	padding: 1em;
+	width: 960px;
+	height: 62px;
+	margin: 0 auto;
+	background: #252E3A url(images/ban1.jpg) no-repeat;
 }
 
 #menu ul {
-	margin: 0em;
-	padding: 0em;
+	margin: 0;
+	padding: 21px 0 0 30px;
 	list-style: none;
-	text-align: center;
-	line-height: 3em;
+	line-height: normal;
 }
 
 #menu li {
+	float: left;
+	padding: 0 20px 0 22px;
+	background: url(images/ban2.gif) no-repeat left center;
+}
+
+#menu li.first {
+	background: none;
 }
 
 #menu a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Banner */
+
+#banner {
+	width: 960px;
+	margin: 0 auto;
+	padding: 8px 0;
 }
 
 /** CONTENT */
@@ -80,17 +99,31 @@ a:hover {
 	width: 70%;
 }
 
-/** FOOTER */
+/* Footer */
 
 #footer {
 	clear: both;
-	padding: 0em 1em;
-	background-color: #CCCCCC;
+	width: 870px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 35px 45px;
+	background: url(images/foot1.gif) no-repeat;
 }
 
 #footer p {
-	margin: 0em;
-	padding: 0em;
-	font-weight: bold;
-	color: #FFFFFF;
+	margin: 0;
+	line-height: normal;
+	color: #B4B4B4;
+}
+
+#footer a {
+	color: #B4B4B4;
+}
+
+#footer .legal {
+	float: left;
+}
+
+#footer .credit {
+	float: right;
 }
