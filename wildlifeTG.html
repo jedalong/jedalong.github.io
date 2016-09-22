@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="logo">
-	<h1><a href="#">Jed A. Long</a></h1>
+	<h1><a href="#">Jed A. Long</a></h1>.
 	<h2>GIS, Maps, & Spatial Ecology</h2>
 </div>
 
@@ -40,30 +40,38 @@
 <p>The wildlifeTG package was developed to provide open access to the PPA home range, and associated methods, developed in our papers (see references). The PPA method has been subsequently extended to include a dynamic version which is able to account for changes in movement behaviour phases, and thus models the vmax parameter dynamically. Currently, I am working on additional functions to compute a measure of joint space use, termed jPPA, that will be useful for mapping areas of potential interaction in wildlife telemetry datasets when multiple animals are tracked simultaneously.</p>
 
 <p>The goal of this website is to provide access to the  tools which I have developed for analysing wildlife space-use with time geographic methods. I hope that other researchers will find the wildlifeTG package useful in their own research applications. I appreciate any and all feedback you may have concerning these tools.</p>
-
 <p>Should you have any further questions please contact me via email: jed.long AT st-andrews.ac.uk </p>
 <br><br>
 
 <h2>Download wildlifeTG</h2>
 
-<p>The wildlifeTG package is still in development, but you can download the latest version of the source code which can then be loaded into R from your local machine. <a href='downloads/wildlifeTG_0.2.tar.gz'>DOWNLOAD</a></p>
+<p>The wildlifeTG package has been developed for use within the statistical software R. The functions rely heavily on the data structures and methods developed in the <a href='http://cran.r-project.org/web/packages/adehabitat/'>adehabitat</a> suite of packages developed by C. Calenge and for the field-based time geography function the <a href='http://cran.r-project.org/web/packages/gdistance/'>gdistance</a> package by Jacob van Etten. I would like to thank the authors/contributors to these packages for all the work they have done facilitating wildlife telemetry data analysis in R.</p> 
 
-<p>Also, be sure to check out the <a href='downloads/wildlifeTG_0.2-documentation.pdf'>documentation</a> associated with the wildlifeTG package for more detailed instructions. I will hopefully have a vignette available soon.</p>
+<p>The wildlifeTG package is still in development, but you can download the latest version directly from Github into R. To do this use the 'devtools' package and the following two lines of R code: <br>
+1. > install.packages('devtools') <br>
+2. > devtools::install_github('jedalong/wildlifeTG')
+</p>
+
+<p>Also, be sure to check out the documentation associated with the wildlifeTG package for more detailed instructions. I will hopefully have a vignette available soon.</p>
 
 <br>
-<h3>Additional Information</h3>
 
-<p>The wildlifeTG package has been developed for use within the statistical software R. The functions rely heavily on the data structures and methods developed in the <a href='http://cran.r-project.org/web/packages/adehabitat/'>adehabitat</a> suite of packages developed by C. Calenge and I would like to thank the authors/contributors to these packages for all the work they have done facilitating wildlife telemetry data analysis in R.</p> 
 
 <br>
 <h3>References</h3>
 <br>
-Long, JA, Nelson, TA (2012) Time geography and wildlife home range delineation. Journal of Wildlife Management. 9: 207-227.
+Long, J.A. (2016) A field-based time geography for wildlife movement analysis. GIScience.
+Sep. 27-30; Montreal, Canada.
 <br><br>
-Nelson, TA, Long, JA, Laberee, K, Stewart, B (in press) A time geographic approach for delineating areas of sustained wildlife use. Annals of GIS. DOI: 10.1080/19475683.2014.992366.
+Long, J.A., Webb, S.L., Nelson, T.A., Gee, K. (2015) Mapping areas of spatial-temporal
+overlap from wildlife telemetry data. Movement Ecology. 3:38. 
 <br><br>
-Long, JA, Nelson, TA (in press) Home range and habitat analysis using dynamic time geography. Journal of Wildlife Management. Accepted: 03-12-2014.
-<br>
+Nelson, TA, Long, JA, Laberee, K, Stewart, B (2015) A time geographic approach for delineating areas of sustained wildlife use. Annals of GIS. 21(1): 81-90.
+<br><br>
+Long, JA, Nelson, TA (2015) Home range and habitat analysis using dynamic time geography. Journal of Wildlife Management. 79(3):481-490.
+<br><br>
+Long, JA, Nelson, TA (2012) Time geography and wildlife home range delineation. Journal of Wildlife Management. 76(2):207-227.
+<br><br>
 <!--
 </div>
 <div id="center" style="width:5%;;float:left"></div>
